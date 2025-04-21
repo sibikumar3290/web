@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from '../assets/logo.svg';
+import logo from '../assets/logo_updated.jpeg';
 import aboutImg from '../assets/about.jpg';
 import about1 from '../assets/about-1.jpg';
 import about2 from '../assets/about-2.jpg';
@@ -15,7 +15,7 @@ export default function Index() {
       <nav className="fixed top-0 left-0 w-full z-50 bg-white shadow-md">
         <div className="container mx-auto flex items-center justify-between p-4">
           <a href="#">
-            <img src={logo} alt="Logo" className="h-8" />
+            <img src={logo} alt="Logo" className="h-20" />
           </a>
           <ul className="hidden md:flex space-x-6">
             <li><a className="text-gray-700 hover:text-blue-500" href="#service">Our Service</a></li>
