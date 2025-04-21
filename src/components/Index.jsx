@@ -5,6 +5,7 @@ import about1 from '../assets/about-1.jpg';
 import about2 from '../assets/about-2.jpg';
 import Footer from '../ui/Footer';
 import m1vv from '../assets/m1vv.jpg';
+import Testimonials from './Testimonials';
 export default function Index() {
   const [showModal, setShowModal] = useState(false);
 
@@ -104,6 +105,7 @@ export default function Index() {
             </button>
           </div>
 
+
           {showModal && (
             <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
               <div className="bg-white p-8 rounded shadow max-w-md w-full">
@@ -139,6 +141,7 @@ export default function Index() {
           )}
         </div>
       </section>
+      <Testimonials/>
 
       <Footer/>
     </div>
